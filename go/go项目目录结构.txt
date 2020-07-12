@@ -1,0 +1,17 @@
+free_music
+      ---go
+           ---app
+               ---fileserver  文件服务
+               ---your service  您要开发的服务
+                  ---cmd  程序入口
+                  ---http  服务路由注册
+                  ---model  所有的模型
+                  ---service  所有的业务逻辑
+                  ---dao   所有的数据访问
+                  ---您想要的目录
+                  ---CHANGELOG.md  修改日志
+           ---common
+               ---log  日志包
+           ---go.mod
+           ---go项目目录结构
+      ---product_directory
